@@ -18,7 +18,7 @@ const Hero = () => {
        <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
         We aim to accompany you on every expedition as you pursue the joy of witnessing the unspoiled beauty of nature. With our app, we can assist you in embarking on a global adventure.
        </p>
-       <div className="mt-11 flex flex-wrap gap-5">
+       <div className="my-11 flex flex-wrap gap-5">
         <div className="flex items-center gap-2">
           {Array(5).fill(1).map((_,index) => (
             <Image
